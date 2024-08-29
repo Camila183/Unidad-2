@@ -1,0 +1,9 @@
+.solid{
+    border: 3px solid blueviolet
+}
+.dotted{
+    border: 3px dotted palevioletred
+}
+.inset{
+    border: 3px inset rebeccapurple
+}

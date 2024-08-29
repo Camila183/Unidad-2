@@ -1,0 +1,49 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color:burlywood;
+}
+.Container {
+    background-color: darksalmon;
+    margin: 100px auto 0 auto;
+    width: 500px;
+    height: 500px;
+    padding: 20px;
+    border-radius: 30px;
+}
+.pregunta_nombre{
+    margin-bottom: 2px;
+    text-align: center;
+    font-size: 25px;
+    color:brown ;
+    
+}
+.pregunta_enunciado{
+    margin-top: 2px;
+    
+    text-align: justify;
+}
+.pregunta_alternativas{
+    height: 200px;
+    line-height: 15px;
+}
+.pregunta_alternativas button{
+    display: block;
+    margin: 5px auto;
+    width: 350px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    /* height: 30px; */
+    border-radius: 8px;
+    border: none
+}
+.pregunta_alternativas button:hover{
+    background-color:rgb(206, 233, 159);
+}
+#barra_progreso{
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    accent-color: rgb(168, 61, 111);
+    
+}
